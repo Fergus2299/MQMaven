@@ -68,9 +68,9 @@ def start_spring_app_with_properties(queue_manager, channel, conn_name, user, pa
 
 if __name__ == "__main__":
     start_spring_app_with_properties(
-        queue_manager="QM2",
+        queue_manager="QM1",
         channel="DEV.ADMIN.SVRCONN",
-        conn_name="13.87.80.195(1415)",
+        conn_name="13.87.80.195(1414)",
         user="admin",
         password="passw0rd",
         listener_auto_startup="false"
